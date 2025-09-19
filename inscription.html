@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Formulaire d’inscription</h1>
+
+    <form>
+        <table>
+            <tr>
+                <td class="l1"><label for="Nu">Nom d'utilisateur</label></td>
+                <td><input type="text" id="Nu" name="Nu"></input></td>
+            </tr>
+            <tr>
+                <td class="l1"><label for="Mdp">Mot de passe</label></td>
+                <td><input type="password" id="Mdp" name="Mdp"></input></td>
+            </tr>
+            <tr>
+                <td class="l2"><label for="Cmdp">Confirmation du mot de passe</label></td>
+                <td><input type="password" id="Cmdp" name="Cmdp"></input></td>
+            </tr>
+            <tr>
+                <td class="l2"><label for="email">Email</label></td>
+                <td><input type="email" id="email" name="email"></input></input></td>
+            </tr>
+            <tr>
+                <td class="l2"><label for="date">Date</label></td>
+                <td><input type="date" id="D" name="D"></input></input></td>
+            </tr>
+            <tr>
+                <td class="l2"><label for="H">Genre</label></td>
+                
+                <td>Homme<input type="radio" id="H" name="drone" value="H">Femme<input type="radio" id="F" name="drone" value="F">Autre<input type="radio" id="A" name="drone" value="A"></td>
+            </tr>       
+        </table>
+
+        <br>
+        <input type="checkbox" required checked><span>J'accepte les conditions générales</span></input>
+
+        <br>
+        <br>
+        <input type="submit" value="Envoyer">
+    </form>
+
+</body>
+</html>
